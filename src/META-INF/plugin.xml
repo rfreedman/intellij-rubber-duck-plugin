@@ -1,0 +1,19 @@
+<idea-plugin version="2">
+  <name>Rubber Duck</name>
+  <description>A plugin to help with Rubber Duck Debugging</description>
+  <version>1.0</version>
+  <vendor>greybeardedgeek</vendor>
+  <idea-version since-build="111.69"/>
+  <application-components/>
+  <project-components/>
+  <actions/>
+
+  <extensions defaultExtensionNs="com.intellij">
+     <toolWindow id="Rubber Duck"
+                 secondary="true"
+                 icon="/general/add.png"
+                 anchor="right"
+                 factoryClass="net.greybeardedgeek.intellij.plugin.rubberDuckToolWindow.RubberDuckToolWindowFactory"
+     />
+  </extensions>
+</idea-plugin>
